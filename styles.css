@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    /* background-image: url("img/disney.jpg");
+    background-size: cover; */
+    background-color: #222;
+
+}
+
+img {
+    width: 200px;
+    height: 250px;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+
+nav h1 {
+    font-family: arial;
+    color: #222;
+    font-size: 24;
+    line-height: 55px;
+    text-transform: uppercase;
+    float: left;  
+    padding: 0px 20px; 
+}  
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-family: arial;
+    color: #222;
+    font-size: 14px;
+    padding: 21px 14px;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul{
+    display: block;
+   
+}
+
+
+nav ul li ul li {
+    width: 140px;
+    border-radius: 4px;
+
+}
+
+nav ul li ul li a {
+    padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #f3f3f3;
+    display: block;
+
+}
+
+nav form {
+    float: right;
+}
+
+nav form button {
+    padding: 2px;
+    display: inline-block;
+    font-family: arial;
+    color: #222;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+
+nav form input {
+    
+    padding: 2px;
+    display: inline-block;
+    font-family: arial;
+    color: #222;
+    /* margin-top: 15px; */
+    line-height: 28px;
+
+}
+
+
+/* .flex-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+} */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+    background-color: #eee;
+}
+
+.wrapper-n {
+    margin: 0 auto;
+    width: 1000px;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+ul {
+   padding: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+   
+
+
+}
+
+
+ul li a {
+     text-decoration: none;
+     font-size: 14px;
+     font-family: 'Lato', sans-serif;
+     padding: 0 20px;
+     display: block;
+     color: #1e1e1e;
+    text-transform: uppercase;
+    
+    transition: all 2s ease-in 1s;
+    -webkit-transition: all 2s ease-in 1s;
+    -moz-transition: all 2s ease-in 1s;
+    -o-transition: all 2s ease-in 1s;
+
+}
+
+ul li a:hover {
+   color: red;
+   font-size: 25px;
+
+}
+
+form {
+    float: right;
+    line-height: 100px;
+    padding-right: 30px;
+}
+
+form input {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+
+
+form button {
+   font-style: italic;
+   margin: 5px;
+   padding: 3px;
+
+
+}
+img {
+    width: 215px;
+    height: 200px;
+}
+*/
+
+/*.base {
+    
+    height: 800px;
+    width: 1000px;
+    background-color: #111;
+    margin-left: 170px;
+    }
+
+.wrapper-shoes {
+    margin: 5px 5px 5px 5px;
+    height: 300px;
+    width: 240px;
+    float: left;
+    background-color: #fff;
+    border:5px;
+    border-color: red;
+    display: block;
+}
+
+
+
+.wrapper-shoes a {
+   text-align: center;
+   text-decoration: none;
+   font-style: italic;
+   font-size: 20px;
+}
+
+.wrapper-shoes a:hover {
+  color: red;
+}
+*/
+/*watches*/
+/*.chose {
+  
+    margin: 5px 5px 5px 5px;
+    height: 300px;
+    width: 240px;
+    float: left;
+    background-color: #fff;
+    border:5px;
+    border-color: red;
+    display: block;
+}
+
+.wrc {
+    margin: 100px;
+    display:block;
+    float: left;
+}
+*/
+
+/*flex code start in here*/
+
+/*.gallery-links-h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;;
+    text-align: center;
+    padding: 20px;
+}
+.gallery-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.gallery-img {
+    flex-basis: 90%;
+    margin: 10px;
+}
+
+.gallery-img img {
+    width: 100%;
+}
+*/
+/*
+table {
+    width: 400px;
+   /* border-spacing: 20px;
+}*/
+/*
+th, caption {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+ th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+
+
+
+
+@media only screen and (min-width: 762px){
+    .gallery-links-h2 {
+        font-size: 28px;
+    }
+
+    .gallery-img {
+    flex-basis: 300px;
+    
+}
+
+*/
